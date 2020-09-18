@@ -1,0 +1,3197 @@
+{
+    "took": 29,
+    "timed_out": false,
+    "_shards": {
+        "total": 3,
+        "successful": 3,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 480,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": [
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "d9ce3d12-6bbb-41e5-b62c-8f74086a3e4b",
+                "_score": 1,
+                "_source": {
+                    "reference": "4284345816_Digitalisering og teknologi, Bane NOR SF_webcruiter",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Biskop Gunnerus gate 14",
+                            "city": "OSLO",
+                            "postalCode": "0185",
+                            "latitude": null,
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": null
+                        }
+                    ],
+                    "expires": "2020-09-28T00:00:00+02:00",
+                    "businessName": "Digitalisering og teknologi, Bane NOR SF",
+                    "employer": {
+                        "name": "BANE NOR OSLO"
+                    },
+                    "source": "XML_STILLING",
+                    "published": "2020-09-14T15:26:02.292053+02:00",
+                    "title": "Leder arkitektur og digital sikkerhet, ERTMS",
+                    "uuid": "d9ce3d12-6bbb-41e5-b62c-8f74086a3e4b",
+                    "properties": {
+                        "applicationdue": "2020-09-28T00:00",
+                        "employer": "Digitalisering og teknologi, Bane NOR SF"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600089962292,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "e93d4f3b-9069-4574-973f-83369c7dc909",
+                "_score": 1,
+                "_source": {
+                    "reference": "191082540",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Lovisenberggata 15B",
+                            "city": "OSLO",
+                            "postalCode": "0456",
+                            "latitude": "59.93183517456055",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.746185302734375"
+                        }
+                    ],
+                    "expires": "2020-10-23T21:59:00+02:00",
+                    "businessName": "Lovisenberg diakonale høgskole",
+                    "employer": {
+                        "name": "LOVISENBERG DIAKONALE HØGSKOLE AS"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T14:29:05.080603+02:00",
+                    "title": "Ønsker du å jobbe med IT-support og kan tiltre snarest?",
+                    "uuid": "e93d4f3b-9069-4574-973f-83369c7dc909",
+                    "properties": {
+                        "applicationdue": "Snarest",
+                        "jobtitle": "Brukerstøtte",
+                        "employer": "Lovisenberg diakonale høgskole",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600086545080,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "9cec1ec5-d67c-47a8-9ad8-305d93f80254",
+                "_score": 1,
+                "_source": {
+                    "reference": "191164510",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Nydalsveien 28",
+                            "city": "OSLO",
+                            "postalCode": "0484",
+                            "latitude": "59.949642181396484",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.764102935791016"
+                        }
+                    ],
+                    "expires": "2020-10-06T00:00:00+02:00",
+                    "businessName": "Itera Norge AS",
+                    "employer": {
+                        "name": "ITERA NORGE AS"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T14:09:08.118365+02:00",
+                    "title": "Sommerjobb som Designer 2021",
+                    "uuid": "9cec1ec5-d67c-47a8-9ad8-305d93f80254",
+                    "properties": {
+                        "applicationdue": "06.10.2020",
+                        "jobtitle": "Sommerstudent Designer",
+                        "employer": "Itera Norge AS",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600085348118,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "aae40f3d-be4e-4c05-943d-7ab828a9fa92",
+                "_score": 1,
+                "_source": {
+                    "reference": "191164151",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Tollbugata 35",
+                            "city": "OSLO",
+                            "postalCode": "0512",
+                            "latitude": "59.91192626953125",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.738369941711426"
+                        }
+                    ],
+                    "expires": "2020-10-20T00:00:00+02:00",
+                    "businessName": "FotoWare AS",
+                    "employer": {
+                        "name": "FOTOWARE AS"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T13:57:02.736231+02:00",
+                    "title": "FotoWare is expanding and seeks a Web Designer",
+                    "uuid": "aae40f3d-be4e-4c05-943d-7ab828a9fa92",
+                    "properties": {
+                        "applicationdue": "20.10.2020",
+                        "jobtitle": "Web Designer",
+                        "employer": "FotoWare AS",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600084622736,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "d91873e7-6ecd-40e8-80d6-ca8b01048df0",
+                "_score": 1,
+                "_source": {
+                    "reference": "191114072",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Sørkedalsveien 8",
+                            "city": "OSLO",
+                            "postalCode": "0369",
+                            "latitude": "59.93061447143555",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.711048126220703"
+                        }
+                    ],
+                    "expires": "2020-10-11T00:00:00+02:00",
+                    "businessName": "Alle Øst",
+                    "employer": {
+                        "name": "BOUVET ASA"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T13:55:57.612749+02:00",
+                    "title": "Agile coach",
+                    "uuid": "d91873e7-6ecd-40e8-80d6-ca8b01048df0",
+                    "properties": {
+                        "applicationdue": "11.10.2020",
+                        "jobtitle": "Agile coach",
+                        "employer": "Alle Øst",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600084557612,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "566340b9-d639-4421-ad26-136b96b3542a",
+                "_score": 1,
+                "_source": {
+                    "reference": "191007054",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Løkketangen 20A",
+                            "city": "SANDVIKA",
+                            "postalCode": "1337",
+                            "latitude": "59.891578674316406",
+                            "county": "VIKEN",
+                            "municipal": "BÆRUM",
+                            "longitude": "10.523046493530273"
+                        }
+                    ],
+                    "expires": "2020-10-24T09:59:00+02:00",
+                    "businessName": "Norkart AS",
+                    "employer": {
+                        "name": "NORKART AS AVD SANDVIKA"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T13:01:41.960784+02:00",
+                    "title": "Vil du bli med på å automatisere Norge? Norkart søker Frontend-utvikler",
+                    "uuid": "566340b9-d639-4421-ad26-136b96b3542a",
+                    "properties": {
+                        "applicationdue": "Snarest",
+                        "jobtitle": "Frontend-utvikler",
+                        "employer": "Norkart AS",
+                        "location": "Sandvika"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600081301960,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "e370e117-1d5d-43d4-9a48-9e3134df7ea8",
+                "_score": 1,
+                "_source": {
+                    "reference": "191105313",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Oslo",
+                            "city": "OSLO",
+                            "postalCode": "0872",
+                            "latitude": "59.9490966796875",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.760891914367676"
+                        }
+                    ],
+                    "expires": "2020-09-30T00:00:00+02:00",
+                    "businessName": "Telia Company Business, NO",
+                    "employer": {
+                        "name": "TELIA NORGE AS TELIA AVD OSLO S"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T12:53:57.77026+02:00",
+                    "title": "DevOps Engineer",
+                    "uuid": "e370e117-1d5d-43d4-9a48-9e3134df7ea8",
+                    "properties": {
+                        "applicationdue": "30.09.2020",
+                        "jobtitle": "DevOps Engineer",
+                        "employer": "Telia Company Business, NO",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600080837770,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "e05fcf85-0982-4bfa-896c-d60d7afa4f3a",
+                "_score": 1,
+                "_source": {
+                    "reference": "191099351",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Kobberslagerstredet 2",
+                            "city": "KRÅKERØY",
+                            "postalCode": "1671",
+                            "latitude": "59.21204376220703",
+                            "county": "VIKEN",
+                            "municipal": "FREDRIKSTAD",
+                            "longitude": "10.929729461669922"
+                        }
+                    ],
+                    "expires": "2020-10-23T21:59:00+02:00",
+                    "businessName": "COWI",
+                    "employer": {
+                        "name": "COWI AS AVD FREDRIKSTAD"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T12:29:39.923296+02:00",
+                    "title": "Har erfaring med programmering?",
+                    "uuid": "e05fcf85-0982-4bfa-896c-d60d7afa4f3a",
+                    "properties": {
+                        "applicationdue": "Snarest",
+                        "jobtitle": "Software utvikler",
+                        "employer": "COWI",
+                        "location": "Kråkerøy"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600079379923,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "e7e17e15-d6f6-4cfa-9bb6-d56035ddf498",
+                "_score": 1,
+                "_source": {
+                    "reference": "191110348",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Forskningsveien 1",
+                            "city": "OSLO",
+                            "postalCode": "0373",
+                            "latitude": "59.94516372680664",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.713252067565918"
+                        }
+                    ],
+                    "expires": "2020-10-12T00:00:00+02:00",
+                    "businessName": "SINTEF Digital",
+                    "employer": {
+                        "name": "SINTEF AVD FORSKNINGSVEIEN OSLO"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T11:21:01.732911+02:00",
+                    "title": "Forsker (MSc/PhD): Big Data og KI - Digitale Tvillinger",
+                    "uuid": "e7e17e15-d6f6-4cfa-9bb6-d56035ddf498",
+                    "properties": {
+                        "applicationdue": "12.10.2020",
+                        "employer": "SINTEF Digital",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600075261732,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "4d5872ce-d8cf-49fa-981d-5b6577d2b614",
+                "_score": 1,
+                "_source": {
+                    "reference": "191094461",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Instituttveien 20",
+                            "city": "KJELLER",
+                            "postalCode": "2007",
+                            "latitude": "59.97454833984375",
+                            "county": "VIKEN",
+                            "municipal": "LILLESTRØM",
+                            "longitude": "11.048042297363281"
+                        }
+                    ],
+                    "expires": "2020-10-04T00:00:00+02:00",
+                    "businessName": "Forsvarets forskningsinstitutt",
+                    "employer": {
+                        "name": "FORSVARETS FORSKNINGSINSTITUTT AVD KJELLER"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T10:44:28.450198+02:00",
+                    "title": "Har du realfaglig utdannelse og kunne tenke deg å jobbe med elektronisk krigføring og radiosystemer?",
+                    "uuid": "4d5872ce-d8cf-49fa-981d-5b6577d2b614",
+                    "properties": {
+                        "applicationdue": "4. oktober 2020",
+                        "employer": "Forsvarets forskningsinstitutt",
+                        "location": "Kjeller"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600073068450,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "696761d6-be74-4193-aed2-3b7cd0a11d88",
+                "_score": 1,
+                "_source": {
+                    "reference": "192480_Departementenes sikkerhets- og serviceorganisasjon (DSS)_jobbnorge",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Oslo sentrum",
+                            "city": "OSLO",
+                            "postalCode": "0032",
+                            "latitude": null,
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": null
+                        }
+                    ],
+                    "expires": "2020-10-05T00:00:00+02:00",
+                    "businessName": "Departementenes sikkerhets- og serviceorganisasjon (DSS)",
+                    "employer": {
+                        "name": "DEPARTEMENTENES SIKKERHETS- OG SERVICEORGANISASJON (DSS) AVD OSLO"
+                    },
+                    "source": "XML_STILLING",
+                    "published": "2020-09-14T09:39:19.855738+02:00",
+                    "title": "Rådgiver/seniorrådgiver - brannmur drift",
+                    "uuid": "696761d6-be74-4193-aed2-3b7cd0a11d88",
+                    "properties": {
+                        "applicationdue": "2020-10-05T00:00",
+                        "employer": "Departementenes sikkerhets- og serviceorganisasjon (DSS)"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600069159855,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "8108da51-76d6-4eec-ba3b-5b6234c34713",
+                "_score": 1,
+                "_source": {
+                    "reference": "191164744",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Nydalsveien 28",
+                            "city": "OSLO",
+                            "postalCode": "0484",
+                            "latitude": "59.949642181396484",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.764102935791016"
+                        }
+                    ],
+                    "expires": "2020-10-01T00:00:00+02:00",
+                    "businessName": "Itera Norge AS",
+                    "employer": {
+                        "name": "ITERA NORGE AS"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T08:46:36.277681+02:00",
+                    "title": "Sommerjobb som Testleder 2021",
+                    "uuid": "8108da51-76d6-4eec-ba3b-5b6234c34713",
+                    "properties": {
+                        "applicationdue": "01.10.2020",
+                        "jobtitle": "Sommerstudent Testleder",
+                        "employer": "Itera Norge AS",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600065996277,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "bf6b6336-0da4-4712-876b-2428cd2f2a9f",
+                "_score": 1,
+                "_source": {
+                    "reference": "191096504",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Dronning Eufemias gate 14",
+                            "city": "OSLO",
+                            "postalCode": "0191",
+                            "latitude": "59.90843200683594",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.758243560791016"
+                        }
+                    ],
+                    "expires": "2020-09-30T00:00:00+02:00",
+                    "businessName": "Deloitte AS",
+                    "employer": {
+                        "name": "DELOITTE SERVICES AS"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T08:41:48.319651+02:00",
+                    "title": "Deloitte Consulting ser nå etter flere teknologientusiaster til teamet vårt innen Robotics & Intelligent Automation",
+                    "uuid": "bf6b6336-0da4-4712-876b-2428cd2f2a9f",
+                    "properties": {
+                        "applicationdue": "30.09.2020",
+                        "jobtitle": "Senior Consultant/Manager",
+                        "employer": "Deloitte AS",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600065708319,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "419dfec9-8fa3-46fc-bad1-ff30868f171e",
+                "_score": 1,
+                "_source": {
+                    "reference": "191095557",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Instituttveien 20",
+                            "city": "KJELLER",
+                            "postalCode": "2007",
+                            "latitude": "59.97454833984375",
+                            "county": "VIKEN",
+                            "municipal": "LILLESTRØM",
+                            "longitude": "11.048042297363281"
+                        }
+                    ],
+                    "expires": "2020-10-04T00:00:00+02:00",
+                    "businessName": "Forsvarets forskningsinstitutt",
+                    "employer": {
+                        "name": "FORSVARETS FORSKNINGSINSTITUTT AVD KJELLER"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T08:40:17.043567+02:00",
+                    "title": "Lyst til å jobbe med elektrooptiske systemer og elektronisk krigføring?",
+                    "uuid": "419dfec9-8fa3-46fc-bad1-ff30868f171e",
+                    "properties": {
+                        "applicationdue": "4. oktober 2020",
+                        "employer": "Forsvarets forskningsinstitutt",
+                        "location": "Kjeller"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600065617043,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "cb7d9810-85a5-48b5-a289-20b60a99470e",
+                "_score": 1,
+                "_source": {
+                    "reference": "191097462",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Christian Krohgs gate 16",
+                            "city": "OSLO",
+                            "postalCode": "0107",
+                            "latitude": "59.91497039794922",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.758840560913086"
+                        }
+                    ],
+                    "expires": "2020-10-04T00:00:00+02:00",
+                    "businessName": "Dagens Næringsliv",
+                    "employer": {
+                        "name": "DAGENS NÆRINGSLIV AS AVD OSLO"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T08:33:56.722843+02:00",
+                    "title": "UX/UI designer i DN",
+                    "uuid": "cb7d9810-85a5-48b5-a289-20b60a99470e",
+                    "properties": {
+                        "applicationdue": "04.10.2020",
+                        "jobtitle": "UX/UI designer",
+                        "employer": "Dagens Næringsliv",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600065236722,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "5cb5f36f-5255-41dc-999c-68c4cfd28846",
+                "_score": 1,
+                "_source": {
+                    "reference": "191089759",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Smeltedigelen 1",
+                            "city": "OSLO",
+                            "postalCode": "0195",
+                            "latitude": "59.9040412902832",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.785799980163574"
+                        }
+                    ],
+                    "expires": "2020-09-30T00:00:00+02:00",
+                    "businessName": "Vieri Purchasing AS",
+                    "employer": {
+                        "name": "VIERI PURCHASING AS"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T08:33:39.392048+02:00",
+                    "title": "Vil du være med på en av de mest spennende reiser i norsk programvareutvikling?",
+                    "uuid": "5cb5f36f-5255-41dc-999c-68c4cfd28846",
+                    "properties": {
+                        "applicationdue": "30.09.2020",
+                        "jobtitle": "Teknisk supportkonsulent",
+                        "employer": "Vieri Purchasing AS",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600065219392,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "734938fe-5ad7-44e8-8231-49bb446cd9f8",
+                "_score": 1,
+                "_source": {
+                    "reference": "191126153",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Grensen 5-7, Oslo, Norge",
+                            "city": "OSLO",
+                            "postalCode": "0159",
+                            "latitude": "59.91374206542969",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.743849754333496"
+                        }
+                    ],
+                    "expires": "2020-10-18T00:00:00+02:00",
+                    "businessName": "FINN",
+                    "employer": {
+                        "name": "FINN NO AS"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T08:33:18.022671+02:00",
+                    "title": "Har du lyst på sommerjobb som utvikler på en av Norges mest besøkte nettsider?",
+                    "uuid": "734938fe-5ad7-44e8-8231-49bb446cd9f8",
+                    "properties": {
+                        "applicationdue": "18.10.2020",
+                        "jobtitle": "Sommerjobb som Utvikler",
+                        "employer": "FINN",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600065198022,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "c908f590-f108-41bb-99e7-7b98cbea24c2",
+                "_score": 1,
+                "_source": {
+                    "reference": "191123609",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Chr. Kroghs gate 16",
+                            "city": "OSLO",
+                            "postalCode": "0186",
+                            "latitude": "59.91569519042969",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.758694648742676"
+                        }
+                    ],
+                    "expires": "2020-10-11T00:00:00+02:00",
+                    "businessName": "Wattsight",
+                    "employer": {
+                        "name": "WATTSIGHT AS AVD OSLO"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T08:32:16.341651+02:00",
+                    "title": "Do you want to take part in building cloud based services for the Energy market?",
+                    "uuid": "c908f590-f108-41bb-99e7-7b98cbea24c2",
+                    "properties": {
+                        "applicationdue": "11.10.2020",
+                        "jobtitle": "Senior Backend developer",
+                        "employer": "Wattsight",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600065136341,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "787b4452-ce78-441f-b62e-209db920b8e0",
+                "_score": 1,
+                "_source": {
+                    "reference": "191098144",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Fornebu",
+                            "city": "FORNEBU",
+                            "postalCode": "1360",
+                            "latitude": "59.899803161621094",
+                            "county": "VIKEN",
+                            "municipal": "BÆRUM",
+                            "longitude": "10.6290922164917"
+                        }
+                    ],
+                    "expires": "2020-09-21T00:00:00+02:00",
+                    "businessName": "Telenor Norge AS",
+                    "employer": {
+                        "name": "TELENOR NORGE AS AVD MOBILTELEFONI"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T08:32:01.303929+02:00",
+                    "title": "Vil du jobbe i et av Norges største fagmiljø innen nettverk og sikkerhet?",
+                    "uuid": "787b4452-ce78-441f-b62e-209db920b8e0",
+                    "properties": {
+                        "applicationdue": "21.09.2020",
+                        "jobtitle": "Solution Architect",
+                        "employer": "Telenor Norge AS",
+                        "location": "Fornebu"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600065121303,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "a3de4ee6-ef21-418b-8ff5-accfb7b2ee36",
+                "_score": 1,
+                "_source": {
+                    "reference": "191098151",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Fornebu",
+                            "city": "FORNEBU",
+                            "postalCode": "1360",
+                            "latitude": "59.899803161621094",
+                            "county": "VIKEN",
+                            "municipal": "BÆRUM",
+                            "longitude": "10.6290922164917"
+                        }
+                    ],
+                    "expires": "2020-09-21T00:00:00+02:00",
+                    "businessName": "Telenor Norge AS",
+                    "employer": {
+                        "name": "TELENOR NORGE AS AVD MOBILTELEFONI"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T08:29:26.597499+02:00",
+                    "title": "Ønsker du å utgjøre en forskjell ved å jobbe med samfunnskritisk teknologi?",
+                    "uuid": "a3de4ee6-ef21-418b-8ff5-accfb7b2ee36",
+                    "properties": {
+                        "applicationdue": "21.09.2020",
+                        "jobtitle": "Customer Network Architect",
+                        "employer": "Telenor Norge AS",
+                        "location": "Fornebu"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600064966597,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "e7b2fa03-da5d-48ff-9d93-3dabcd9da217",
+                "_score": 1,
+                "_source": {
+                    "reference": "191120386",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Rolfsbuktveien 4A (5 Floor)",
+                            "city": "FORNEBU",
+                            "postalCode": "1364",
+                            "latitude": "59.89466857910156",
+                            "county": "VIKEN",
+                            "municipal": "BÆRUM",
+                            "longitude": "10.62783432006836"
+                        }
+                    ],
+                    "expires": "2020-10-23T21:59:00+02:00",
+                    "businessName": "Toptemp AS",
+                    "employer": {
+                        "name": "TOPTEMP AS AVD OSLO"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T08:27:44.432181+02:00",
+                    "title": "Vil du være med å forme fremtidens mobilteknologi?",
+                    "uuid": "e7b2fa03-da5d-48ff-9d93-3dabcd9da217",
+                    "properties": {
+                        "applicationdue": "Snarest",
+                        "jobtitle": "Wireless Engineer",
+                        "employer": "Toptemp AS",
+                        "location": "Fornebu"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600064864432,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "1c6209d6-d415-4737-b45d-e97b3476290f",
+                "_score": 1,
+                "_source": {
+                    "reference": "vac2568129dep37729_Nasjonal sikkerhetsmyndighet Nasjonal sikkerhetsmyndighet_stepstone",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Rødskiferveien 20, Kolsås base",
+                            "city": "KOLSÅS",
+                            "postalCode": "1352",
+                            "latitude": null,
+                            "county": "VIKEN",
+                            "municipal": "BÆRUM",
+                            "longitude": null
+                        }
+                    ],
+                    "expires": "2020-10-04T00:00:00+02:00",
+                    "businessName": "Nasjonal sikkerhetsmyndighet Nasjonal sikkerhetsmyndighet",
+                    "employer": {
+                        "name": "NASJONAL SIKKERHETSMYNDIGHET (NSM)"
+                    },
+                    "source": "XML_STILLING",
+                    "published": "2020-09-14T08:26:19.99535+02:00",
+                    "title": "Senioringeniør/forsker",
+                    "uuid": "1c6209d6-d415-4737-b45d-e97b3476290f",
+                    "properties": {
+                        "applicationdue": "2020-10-04T00:00",
+                        "employer": "Nasjonal sikkerhetsmyndighet Nasjonal sikkerhetsmyndighet"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600064779995,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "f02bd0d8-697d-4f98-96de-760aa8f7d014",
+                "_score": 1,
+                "_source": {
+                    "reference": "191083898",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": null,
+                            "city": "OSLO",
+                            "postalCode": "0585",
+                            "latitude": "59.93219757080078",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.791592597961426"
+                        }
+                    ],
+                    "expires": "2020-10-04T00:00:00+02:00",
+                    "businessName": "Coop Norge Sømløse kundeopplevelser",
+                    "employer": {
+                        "name": "COOP NORGE SA AVD HOVEDKONTOR"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T08:26:13.230543+02:00",
+                    "title": "Sikkerhetsanalytiker i Security Operations Center - Coop Norge",
+                    "uuid": "f02bd0d8-697d-4f98-96de-760aa8f7d014",
+                    "properties": {
+                        "applicationdue": "04.10.2020",
+                        "employer": "Coop Norge Sømløse kundeopplevelser",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600064773230,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "eaef20f4-7668-4561-a65b-8e9f99ab5c41",
+                "_score": 1,
+                "_source": {
+                    "reference": "4286715008_NRK_webcruiter",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Bjørnstjerne Bjørnsons Plass 1",
+                            "city": "OSLO",
+                            "postalCode": "0340",
+                            "latitude": "59.93472255508966",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.719662425667448"
+                        }
+                    ],
+                    "expires": "2020-10-04T00:00:00+02:00",
+                    "businessName": "NRK",
+                    "employer": {
+                        "name": "NORSK RIKSKRINGKASTING AS AVD OSLO"
+                    },
+                    "source": "XML_STILLING",
+                    "published": "2020-09-14T08:22:40.352069+02:00",
+                    "title": "Systemingeniør Videosystemer",
+                    "uuid": "eaef20f4-7668-4561-a65b-8e9f99ab5c41",
+                    "properties": {
+                        "applicationdue": "2020-10-04T00:00",
+                        "employer": "NRK"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600064560352,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "ccd82931-eab2-4402-b065-c2d035f96f06",
+                "_score": 1,
+                "_source": {
+                    "reference": "191088106",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": null,
+                            "city": "OSLO",
+                            "postalCode": "0585",
+                            "latitude": "59.93219757080078",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.791592597961426"
+                        }
+                    ],
+                    "expires": "2020-10-04T00:00:00+02:00",
+                    "businessName": "Coop Norge Sømløse kundeopplevelser",
+                    "employer": {
+                        "name": "COOP NORGE SA AVD HOVEDKONTOR"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T08:21:42.970841+02:00",
+                    "title": "Sikkerhetskonsulent (GRC) hos avdeling Sikkerhet og overvåking - Coop Norge",
+                    "uuid": "ccd82931-eab2-4402-b065-c2d035f96f06",
+                    "properties": {
+                        "applicationdue": "04.10.2020",
+                        "employer": "Coop Norge Sømløse kundeopplevelser",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600064502970,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "8d765d12-dbd2-49e5-b12d-d2b18a8f9571",
+                "_score": 1,
+                "_source": {
+                    "reference": "\n        5f5a27f654ef8448835669b8",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": null,
+                            "city": "OSLO",
+                            "postalCode": "0166",
+                            "latitude": null,
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": null
+                        }
+                    ],
+                    "expires": "2020-09-24T05:00:03.854103+02:00",
+                    "businessName": "Savvie",
+                    "employer": {
+                        "name": "SAVVIE AS"
+                    },
+                    "source": "DEXI",
+                    "published": "2020-09-14T08:21:19.558859+02:00",
+                    "title": "Mobile Developer - Flutter",
+                    "uuid": "8d765d12-dbd2-49e5-b12d-d2b18a8f9571",
+                    "properties": {
+                        "employer": "Savvie",
+                        "location": "\n        Norway"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600064479558,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "246ad9ba-7609-4aaa-ab0b-f8238e546383",
+                "_score": 1,
+                "_source": {
+                    "reference": "\n        5f5a2d2c54ef84488357a702",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": null,
+                            "city": "OSLO",
+                            "postalCode": "0166",
+                            "latitude": null,
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": null
+                        }
+                    ],
+                    "expires": "2020-09-24T05:00:03.852932+02:00",
+                    "businessName": "Savvie",
+                    "employer": {
+                        "name": "SAVVIE AS"
+                    },
+                    "source": "DEXI",
+                    "published": "2020-09-14T08:13:37.919963+02:00",
+                    "title": "Back-end Developer",
+                    "uuid": "246ad9ba-7609-4aaa-ab0b-f8238e546383",
+                    "properties": {
+                        "employer": "Savvie",
+                        "location": "\n        Norway"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600064017919,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "e7ce726a-6703-4bb5-b9fa-da2ed9744416",
+                "_score": 1,
+                "_source": {
+                    "reference": "191131411",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "SINSENVEIEN 45",
+                            "city": "OSLO",
+                            "postalCode": "0585",
+                            "latitude": "59.93284606933594",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.789915084838867"
+                        }
+                    ],
+                    "expires": "2020-10-23T21:59:00+02:00",
+                    "businessName": "Academic Work Norway AS",
+                    "employer": {
+                        "name": "ACADEMIC WORK NORWAY AS"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-14T08:07:41.002485+02:00",
+                    "title": "Coop søker IT-konsulenter",
+                    "uuid": "e7ce726a-6703-4bb5-b9fa-da2ed9744416",
+                    "properties": {
+                        "applicationdue": "Snarest",
+                        "jobtitle": "IT-konsult",
+                        "employer": "Academic Work Norway AS",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600063661002,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "7d9c13ce-7227-4b37-a24f-dab7efeeeaba",
+                "_score": 1,
+                "_source": {
+                    "reference": "4286897844_Etterretningstjenesten_webcruiter",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Postboks 193",
+                            "city": "OSLO",
+                            "postalCode": "0614",
+                            "latitude": null,
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": null
+                        }
+                    ],
+                    "expires": "2020-10-02T00:00:00+02:00",
+                    "businessName": "Etterretningstjenesten",
+                    "employer": {
+                        "name": "ETTERRETNINGSTJENESTEN E"
+                    },
+                    "source": "XML_STILLING",
+                    "published": "2020-09-14T08:05:20.755288+02:00",
+                    "title": "Systemutvikler - Dataflyt-ingeniør",
+                    "uuid": "7d9c13ce-7227-4b37-a24f-dab7efeeeaba",
+                    "properties": {
+                        "applicationdue": "2020-10-02T00:00",
+                        "employer": "Etterretningstjenesten"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600063520755,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "886455e9-c74b-4daf-8426-014f84a060a3",
+                "_score": 1,
+                "_source": {
+                    "reference": "4286803940_Entur_webcruiter",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Rådhusgata 5 Oslo/ Jernbanetorget 6 Lillehammer",
+                            "city": "OSLO",
+                            "postalCode": "0154",
+                            "latitude": null,
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": null
+                        }
+                    ],
+                    "expires": "2020-09-28T00:00:00+02:00",
+                    "businessName": "Entur",
+                    "employer": {
+                        "name": "ENTUR AS AVD OSLO S"
+                    },
+                    "source": "XML_STILLING",
+                    "published": "2020-09-14T07:52:06.82277+02:00",
+                    "title": "Driftskonsulent, IKT",
+                    "uuid": "886455e9-c74b-4daf-8426-014f84a060a3",
+                    "properties": {
+                        "applicationdue": "2020-09-28T00:00",
+                        "employer": "Entur"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1600062726822,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "91a0f227-ef93-4c6b-abb8-d53292187b6b",
+                "_score": 1,
+                "_source": {
+                    "reference": "192627_Statens vegvesen_jobbnorge",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Doktor Hansteins gate 9",
+                            "city": "DRAMMEN",
+                            "postalCode": "3044",
+                            "latitude": "59.73863810049988",
+                            "county": "VIKEN",
+                            "municipal": "DRAMMEN",
+                            "longitude": "10.207757689247353"
+                        },
+                        {
+                            "country": "NORGE",
+                            "address": null,
+                            "city": null,
+                            "postalCode": null,
+                            "latitude": null,
+                            "county": "VESTLAND",
+                            "municipal": "BERGEN",
+                            "longitude": null
+                        }
+                    ],
+                    "expires": "2020-10-02T00:00:00+02:00",
+                    "businessName": "Statens vegvesen",
+                    "employer": {
+                        "name": "STATENS VEGVESEN REGION SØR DRAMMEN KONTORSTED"
+                    },
+                    "source": "XML_STILLING",
+                    "published": "2020-09-11T15:18:35.418797+02:00",
+                    "title": "Analyseansvarlig",
+                    "uuid": "91a0f227-ef93-4c6b-abb8-d53292187b6b",
+                    "properties": {
+                        "applicationdue": "2020-10-02T00:00",
+                        "employer": "Statens vegvesen"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599830315418,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "7784ea10-6f33-4584-b374-ab38c1d23abd",
+                "_score": 1,
+                "_source": {
+                    "reference": "4286157659_Arbeid og velferdsdirektoratet, NAV_webcruiter",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Fyrstikkallèen 1",
+                            "city": "OSLO",
+                            "postalCode": "0661",
+                            "latitude": null,
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": null
+                        }
+                    ],
+                    "expires": "2020-10-01T00:00:00+02:00",
+                    "businessName": "Arbeid og velferdsdirektoratet, NAV",
+                    "employer": {
+                        "name": "ARBEIDS- OG VELFERDSDIREKTORATET AVD FYRSTIKKALLÉEN"
+                    },
+                    "source": "XML_STILLING",
+                    "published": "2020-09-11T15:14:03.66775+02:00",
+                    "title": "Samfunnsengasjerte studenter til summer internship i data science",
+                    "uuid": "7784ea10-6f33-4584-b374-ab38c1d23abd",
+                    "properties": {
+                        "applicationdue": "2020-10-01T00:00",
+                        "employer": "Arbeid og velferdsdirektoratet, NAV"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599830043667,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "8b6d8b0a-568c-48d1-8b37-a8d9ebf71946",
+                "_score": 1,
+                "_source": {
+                    "reference": "4284673083_Systemutvikling og Porteføljer, Statnett_webcruiter",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Nydalen Alle 33",
+                            "city": "OSLO",
+                            "postalCode": "0484",
+                            "latitude": null,
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": null
+                        }
+                    ],
+                    "expires": "2020-10-22T00:00:00+02:00",
+                    "businessName": "Systemutvikling og Porteføljer, Statnett",
+                    "employer": {
+                        "name": "STATNETT OSLO HOVEDKONTOR"
+                    },
+                    "source": "XML_STILLING",
+                    "published": "2020-09-11T12:17:09.604767+02:00",
+                    "title": "Senior Prosjektleder - digital utvikling",
+                    "uuid": "8b6d8b0a-568c-48d1-8b37-a8d9ebf71946",
+                    "properties": {
+                        "applicationdue": "2020-10-22T00:00",
+                        "employer": "Systemutvikling og Porteføljer, Statnett"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599819429604,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "93f2329b-82f8-41e4-9652-1a87c8b468ac",
+                "_score": 1,
+                "_source": {
+                    "reference": "191020189",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Snarøyveien 30A,",
+                            "city": "FORNEBU",
+                            "postalCode": "1360",
+                            "latitude": "59.89927673339844",
+                            "county": "VIKEN",
+                            "municipal": "BÆRUM",
+                            "longitude": "10.627371788024902"
+                        }
+                    ],
+                    "expires": "2020-10-10T21:59:00+02:00",
+                    "businessName": "TietoEVRY",
+                    "employer": {
+                        "name": "TIETOEVRY ACCOUNTING AS AVD FORNEBU"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-11T11:46:14.131838+02:00",
+                    "title": "Test engineer",
+                    "uuid": "93f2329b-82f8-41e4-9652-1a87c8b468ac",
+                    "properties": {
+                        "applicationdue": "Snarest",
+                        "jobtitle": "Test engineer",
+                        "employer": "TietoEVRY",
+                        "location": "Fornebu"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599817574131,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "e6cd1e56-cb04-46bd-8290-5a3312a3f05e",
+                "_score": 1,
+                "_source": {
+                    "reference": "191015372",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "PILESTREDET 33 A",
+                            "city": "OSLO",
+                            "postalCode": "0166",
+                            "latitude": "59.918724060058594",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.735795974731445"
+                        }
+                    ],
+                    "expires": "2020-10-22T21:59:00+02:00",
+                    "businessName": "iBiz Solutions",
+                    "employer": {
+                        "name": "IBIZ MANAGEMENT AS"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-11T11:37:45.049696+02:00",
+                    "title": "Integrasjonskonsulent til iBiz Solutions",
+                    "uuid": "e6cd1e56-cb04-46bd-8290-5a3312a3f05e",
+                    "properties": {
+                        "applicationdue": "Snarest",
+                        "jobtitle": "Integrasjonskonsulent",
+                        "employer": "iBiz Solutions",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599817065049,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "cd14c4d6-5b9b-4ec1-8892-ba50c2fa23a6",
+                "_score": 1,
+                "_source": {
+                    "reference": "190995468",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Oslo",
+                            "city": "OSLO",
+                            "postalCode": "0160",
+                            "latitude": "59.910797119140625",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.732606887817383"
+                        }
+                    ],
+                    "expires": "2020-10-22T21:59:00+02:00",
+                    "businessName": "Kahoot!",
+                    "employer": {
+                        "name": "KAHOOT! AS"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-11T11:11:27.442799+02:00",
+                    "title": "Senior Software Developer Kahoot DragonBox",
+                    "uuid": "cd14c4d6-5b9b-4ec1-8892-ba50c2fa23a6",
+                    "properties": {
+                        "jobtitle": "Senior Software Developer Kahoot DragonBox",
+                        "employer": "Kahoot!",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599815487442,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "10aae1ed-17c5-41b8-b6bf-2d818255cb50",
+                "_score": 1,
+                "_source": {
+                    "reference": "190988684",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Biskop Gunnerusgate 14 A",
+                            "city": "OSLO",
+                            "postalCode": "0185",
+                            "latitude": "59.91163635253906",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.754630088806152"
+                        }
+                    ],
+                    "expires": "2020-10-22T00:00:00+02:00",
+                    "businessName": "Sopra Steria",
+                    "employer": {
+                        "name": "SOPRA STERIA AS AVD OSLO"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-11T11:06:52.480355+02:00",
+                    "title": "Brenner du for test og testrådgivning?",
+                    "uuid": "10aae1ed-17c5-41b8-b6bf-2d818255cb50",
+                    "properties": {
+                        "applicationdue": "22.10.2020",
+                        "jobtitle": "Testrådgiver",
+                        "employer": "Sopra Steria",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599815212480,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "c16ac97e-388c-4888-a986-e054cca66c0e",
+                "_score": 1,
+                "_source": {
+                    "reference": "190989506",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Biskop Gunnerusgate 14 A",
+                            "city": "OSLO",
+                            "postalCode": "0185",
+                            "latitude": "59.91163635253906",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.754630088806152"
+                        }
+                    ],
+                    "expires": "2020-10-22T00:00:00+02:00",
+                    "businessName": "Sopra Steria",
+                    "employer": {
+                        "name": "SOPRA STERIA AS AVD OSLO"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-11T10:57:36.47892+02:00",
+                    "title": "Har du erfaring med utvikling, teknisk testing eller ytelse? Vi ser etter deg!",
+                    "uuid": "c16ac97e-388c-4888-a986-e054cca66c0e",
+                    "properties": {
+                        "applicationdue": "22.10.2020",
+                        "jobtitle": "Ytelsesspesialist",
+                        "employer": "Sopra Steria",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599814656478,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "1f2005ab-b333-4e49-b141-1bd68f8c9d3c",
+                "_score": 1,
+                "_source": {
+                    "reference": "191073726",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Oslo",
+                            "city": "OSLO",
+                            "postalCode": "0484",
+                            "latitude": "59.947898864746094",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.767193794250488"
+                        }
+                    ],
+                    "expires": "2020-09-28T00:00:00+02:00",
+                    "businessName": "Telia Company Business, NO",
+                    "employer": {
+                        "name": "TELIA NORGE AS TELIA AVD OSLO - SANDAKERVEIEN"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-11T10:52:03.597898+02:00",
+                    "title": "RPA Developer",
+                    "uuid": "1f2005ab-b333-4e49-b141-1bd68f8c9d3c",
+                    "properties": {
+                        "applicationdue": "28.09.2020",
+                        "jobtitle": "RPA Developer",
+                        "employer": "Telia Company Business, NO",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599814323597,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "4a314304-1250-4620-93a4-f8c34307bd76",
+                "_score": 1,
+                "_source": {
+                    "reference": "191005011",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Biermanns gate 6",
+                            "city": "OSLO",
+                            "postalCode": "0473",
+                            "latitude": "59.93077087402344",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.760780334472656"
+                        }
+                    ],
+                    "expires": "2020-09-28T00:00:00+02:00",
+                    "businessName": "reMarkable",
+                    "employer": {
+                        "name": "REMARKABLE AS"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-11T10:44:42.54373+02:00",
+                    "title": "Vi søker dyktige ledere for våre cloud-utviklere",
+                    "uuid": "4a314304-1250-4620-93a4-f8c34307bd76",
+                    "properties": {
+                        "applicationdue": "28.09.2020",
+                        "jobtitle": "Cloud Unit Lead",
+                        "employer": "reMarkable",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599813882543,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "2798faac-67bd-42bd-8cc9-d8d588306001",
+                "_score": 1,
+                "_source": {
+                    "reference": "4253377102_Politiets IKT-tjenester_webcruiter",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Fridtjof Nansens vei 14",
+                            "city": "OSLO",
+                            "postalCode": "0369",
+                            "latitude": "59.93000521384623",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.709048339607294"
+                        }
+                    ],
+                    "expires": "2020-09-28T00:00:00+02:00",
+                    "businessName": "Politiets IKT-tjenester",
+                    "employer": {
+                        "name": "POLITIETS IKT-TJENESTER AVD HOVEDKONTOR"
+                    },
+                    "source": "XML_STILLING",
+                    "published": "2020-09-11T10:11:17.001917+02:00",
+                    "title": "App-utvikler - se her!",
+                    "uuid": "2798faac-67bd-42bd-8cc9-d8d588306001",
+                    "properties": {
+                        "applicationdue": "2020-09-28T00:00",
+                        "employer": "Politiets IKT-tjenester"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599811877001,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "a561c475-fac9-43ec-9042-3e361f5a97a5",
+                "_score": 1,
+                "_source": {
+                    "reference": "191074373",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Kongens gate 6, 0153 Oslo",
+                            "city": "OSLO",
+                            "postalCode": "0106",
+                            "latitude": "59.909908294677734",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.741833686828613"
+                        }
+                    ],
+                    "expires": "2020-10-23T21:59:00+02:00",
+                    "businessName": "PayEx Norge AS",
+                    "employer": {
+                        "name": "PAYEX NORGE AS AVD IT"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-11T09:11:09.789491+02:00",
+                    "title": "PayEx vokser og trenger flere utviklere",
+                    "uuid": "a561c475-fac9-43ec-9042-3e361f5a97a5",
+                    "properties": {
+                        "applicationdue": "Fortløpende",
+                        "jobtitle": "PayEx vokser og trenger flere utviklere",
+                        "employer": "PayEx Norge AS",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599808269789,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "d6121af3-1695-4acd-844c-7dbb2ede5e23",
+                "_score": 1,
+                "_source": {
+                    "reference": "190990186",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Biskop Gunnerusgate 14 A",
+                            "city": "OSLO",
+                            "postalCode": "0185",
+                            "latitude": "59.91163635253906",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.754630088806152"
+                        }
+                    ],
+                    "expires": "2020-10-05T00:00:00+02:00",
+                    "businessName": "Sopra Steria",
+                    "employer": {
+                        "name": "SOPRA STERIA AS AVD OSLO"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-11T08:55:42.116693+02:00",
+                    "title": "Trives du med å jobbe innen et bedret spekter av integrasjons-teknologi?",
+                    "uuid": "d6121af3-1695-4acd-844c-7dbb2ede5e23",
+                    "properties": {
+                        "applicationdue": "05.10.2020",
+                        "jobtitle": "Integrasjonsutvikler og -arkitekt",
+                        "employer": "Sopra Steria",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599807342116,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "90db4222-b42e-4efd-a9dd-47f8627eb19d",
+                "_score": 1,
+                "_source": {
+                    "reference": "190991246",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Biskop Gunnerusgate 14 A",
+                            "city": "OSLO",
+                            "postalCode": "0185",
+                            "latitude": "59.91163635253906",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.754630088806152"
+                        }
+                    ],
+                    "expires": "2020-10-22T00:00:00+02:00",
+                    "businessName": "Sopra Steria",
+                    "employer": {
+                        "name": "SOPRA STERIA AS AVD OSLO"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-11T08:50:35.278551+02:00",
+                    "title": "Lyst til å bli med på å redefinere kvalitetsarbeid?",
+                    "uuid": "90db4222-b42e-4efd-a9dd-47f8627eb19d",
+                    "properties": {
+                        "applicationdue": "22.10.2020",
+                        "jobtitle": "TestOps Engineer",
+                        "employer": "Sopra Steria",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599807035278,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "14bf3999-60c8-4268-8901-07b2838d922d",
+                "_score": 1,
+                "_source": {
+                    "reference": "191026582",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": null,
+                            "city": "OSLO",
+                            "postalCode": "0180",
+                            "latitude": "59.91600036621094",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.743094444274902"
+                        }
+                    ],
+                    "expires": "2020-09-30T21:59:00+02:00",
+                    "businessName": "Glasspaper Bemanning Oslo",
+                    "employer": {
+                        "name": "GLASSPAPER PEOPLE AS"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-11T08:41:32.757674+02:00",
+                    "title": "Ønsker du å jobbe med IT support i offentlig sektor?",
+                    "uuid": "14bf3999-60c8-4268-8901-07b2838d922d",
+                    "properties": {
+                        "applicationdue": "Snarest",
+                        "jobtitle": "Supportmedarbeider",
+                        "employer": "Glasspaper Bemanning Oslo",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599806492757,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "f34277c8-532d-43fa-90a6-6dda5dbe0895",
+                "_score": 1,
+                "_source": {
+                    "reference": "190717367",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Fornebu",
+                            "city": "FORNEBU",
+                            "postalCode": "1360",
+                            "latitude": "59.899803161621094",
+                            "county": "VIKEN",
+                            "municipal": "BÆRUM",
+                            "longitude": "10.6290922164917"
+                        }
+                    ],
+                    "expires": "2020-10-04T00:00:00+02:00",
+                    "businessName": "Telenor Norge AS",
+                    "employer": {
+                        "name": "TELENOR NORGE AS AVD. FORNEBU"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-11T08:36:43.383015+02:00",
+                    "title": "System Expert OSS",
+                    "uuid": "f34277c8-532d-43fa-90a6-6dda5dbe0895",
+                    "properties": {
+                        "applicationdue": "04.10.2020",
+                        "jobtitle": "System Expert OSS",
+                        "employer": "Telenor Norge AS",
+                        "location": "Fornebu"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599806203383,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "c0967453-5872-4144-8b06-7061b30999f1",
+                "_score": 1,
+                "_source": {
+                    "reference": "190982311",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "NEDRE VOLLGATE 11",
+                            "city": "OSLO",
+                            "postalCode": "0158",
+                            "latitude": "59.91155242919922",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.738203048706055"
+                        }
+                    ],
+                    "expires": "2020-10-22T00:00:00+02:00",
+                    "businessName": "Thales Norway AS",
+                    "employer": {
+                        "name": "THALES NORWAY AS AVD OSLO"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-11T08:36:22.738256+02:00",
+                    "title": "Ønsker du å jobbe med moderne programmeringsverktøy og utvikle software for kritisk infrastruktur?",
+                    "uuid": "c0967453-5872-4144-8b06-7061b30999f1",
+                    "properties": {
+                        "applicationdue": "22.10.2020",
+                        "jobtitle": "Software Engineer (C/C++)",
+                        "employer": "Thales Norway AS",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599806182738,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "37f8cedb-3f24-4a0f-b02f-81404f87c5e1",
+                "_score": 1,
+                "_source": {
+                    "reference": "190901370",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Grensen 17, 0159 Oslo",
+                            "city": "OSLO",
+                            "postalCode": "0159",
+                            "latitude": "59.91415786743164",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.742560386657715"
+                        }
+                    ],
+                    "expires": "2020-10-10T00:00:00+02:00",
+                    "businessName": "Personalhuset - Office & Finance - Oslo & Akershus",
+                    "employer": {
+                        "name": "PERSONALHUSET STAFFING GROUP AS AVD OSLO"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-11T08:33:42.381704+02:00",
+                    "title": "Har du erfaring med IKT-brukerstøtte?",
+                    "uuid": "37f8cedb-3f24-4a0f-b02f-81404f87c5e1",
+                    "properties": {
+                        "applicationdue": "10.10.2020",
+                        "jobtitle": "IKT brukerstøtte",
+                        "employer": "Personalhuset - Office & Finance - Oslo & Akershus",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599806022381,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "4af8a0f8-419c-4eb4-883d-4fa91cd77259",
+                "_score": 1,
+                "_source": {
+                    "reference": "190893500",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Kirkegata 24-26",
+                            "city": "OSLO",
+                            "postalCode": "0153",
+                            "latitude": "59.91121292114258",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.74483585357666"
+                        }
+                    ],
+                    "expires": "2020-09-30T00:00:00+02:00",
+                    "businessName": "Høyskolen Kristiania",
+                    "employer": {
+                        "name": "HØYSKOLEN KRISTIANIA - ERNST G MORTENSENS STIFTELSE AVD BERGEN"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-11T08:29:51.791621+02:00",
+                    "title": "Har du lyst til å sette retning for vår strategisk viktige plattform?",
+                    "uuid": "4af8a0f8-419c-4eb4-883d-4fa91cd77259",
+                    "properties": {
+                        "applicationdue": "30.09.2020",
+                        "jobtitle": "Teknisk produkteier",
+                        "employer": "Høyskolen Kristiania",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599805791791,
+                    1
+                ]
+            },
+            {
+                "_index": "ad_20191106_093812",
+                "_type": "_doc",
+                "_id": "cd5d02a1-472c-47c3-b660-8d8e56370863",
+                "_score": 1,
+                "_source": {
+                    "reference": "190925691",
+                    "locationList": [
+                        {
+                            "country": "NORGE",
+                            "address": "Grensen 5-7, Oslo, Norge",
+                            "city": "OSLO",
+                            "postalCode": "0106",
+                            "latitude": "59.91374206542969",
+                            "county": "OSLO",
+                            "municipal": "OSLO",
+                            "longitude": "10.743849754333496"
+                        }
+                    ],
+                    "expires": "2020-10-04T00:00:00+02:00",
+                    "businessName": "FINN.no",
+                    "employer": {
+                        "name": "FINN NO AS"
+                    },
+                    "source": "FINN",
+                    "published": "2020-09-11T08:29:51.10683+02:00",
+                    "title": "Spennende mulighet for deg som snart er ferdig utdannet innen IT",
+                    "uuid": "cd5d02a1-472c-47c3-b660-8d8e56370863",
+                    "properties": {
+                        "applicationdue": "04.10.2020",
+                        "jobtitle": "Utvikler",
+                        "employer": "FINN.no",
+                        "location": "Oslo"
+                    },
+                    "status": "ACTIVE"
+                },
+                "sort": [
+                    1599805791106,
+                    1
+                ]
+            }
+        ]
+    },
+    "aggregations": {
+        "extent": {
+            "doc_count": 480,
+            "values": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                    {
+                        "key": "Heltid",
+                        "doc_count": 476
+                    },
+                    {
+                        "key": "Deltid",
+                        "doc_count": 4
+                    }
+                ]
+            }
+        },
+        "positioncount": {
+            "doc_count": 480,
+            "sum": {
+                "value": 788
+            }
+        },
+        "engagementType": {
+            "doc_count": 480,
+            "values": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                    {
+                        "key": "Fast",
+                        "doc_count": 344
+                    },
+                    {
+                        "key": "Annet",
+                        "doc_count": 82
+                    },
+                    {
+                        "key": "Engasjement",
+                        "doc_count": 25
+                    },
+                    {
+                        "key": "Vikariat",
+                        "doc_count": 12
+                    },
+                    {
+                        "key": "Prosjekt",
+                        "doc_count": 10
+                    },
+                    {
+                        "key": "Sesong",
+                        "doc_count": 5
+                    },
+                    {
+                        "key": "Feriejobb",
+                        "doc_count": 1
+                    },
+                    {
+                        "key": "Trainee",
+                        "doc_count": 1
+                    }
+                ]
+            }
+        },
+        "countries": {
+            "doc_count": 780,
+            "nestedLocations": {
+                "doc_count": 809,
+                "values": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                        {
+                            "key": "NEDERLAND",
+                            "doc_count": 1,
+                            "root_doc_count": {
+                                "doc_count": 1
+                            }
+                        },
+                        {
+                            "key": "SVERIGE",
+                            "doc_count": 1,
+                            "root_doc_count": {
+                                "doc_count": 1
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "counties": {
+            "doc_count": 780,
+            "nestedLocations": {
+                "doc_count": 809,
+                "values": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                        {
+                            "key": "AGDER",
+                            "doc_count": 20,
+                            "municipals": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "ARENDAL",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "GRIMSTAD",
+                                        "doc_count": 8
+                                    },
+                                    {
+                                        "key": "KRISTIANSAND",
+                                        "doc_count": 5
+                                    },
+                                    {
+                                        "key": "LILLESAND",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "LINDESNES",
+                                        "doc_count": 3
+                                    },
+                                    {
+                                        "key": "VENNESLA",
+                                        "doc_count": 1
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 20
+                            }
+                        },
+                        {
+                            "key": "INNLANDET",
+                            "doc_count": 18,
+                            "municipals": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "ELVERUM",
+                                        "doc_count": 2
+                                    },
+                                    {
+                                        "key": "GJØVIK",
+                                        "doc_count": 5
+                                    },
+                                    {
+                                        "key": "HAMAR",
+                                        "doc_count": 3
+                                    },
+                                    {
+                                        "key": "KONGSVINGER",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "LILLEHAMMER",
+                                        "doc_count": 3
+                                    },
+                                    {
+                                        "key": "SEL",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "STANGE",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "VESTRE TOTEN",
+                                        "doc_count": 1
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 17
+                            }
+                        },
+                        {
+                            "key": "MØRE OG ROMSDAL",
+                            "doc_count": 11,
+                            "municipals": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "KRISTIANSUND",
+                                        "doc_count": 2
+                                    },
+                                    {
+                                        "key": "MOLDE",
+                                        "doc_count": 5
+                                    },
+                                    {
+                                        "key": "ÅLESUND",
+                                        "doc_count": 3
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 10
+                            }
+                        },
+                        {
+                            "key": "NORDLAND",
+                            "doc_count": 11,
+                            "municipals": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "BODØ",
+                                        "doc_count": 4
+                                    },
+                                    {
+                                        "key": "BRØNNØY",
+                                        "doc_count": 3
+                                    },
+                                    {
+                                        "key": "LURØY",
+                                        "doc_count": 2
+                                    },
+                                    {
+                                        "key": "RANA",
+                                        "doc_count": 1
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 10
+                            }
+                        },
+                        {
+                            "key": "OSLO",
+                            "doc_count": 365,
+                            "municipals": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "OSLO",
+                                        "doc_count": 365
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 365
+                            }
+                        },
+                        {
+                            "key": "ROGALAND",
+                            "doc_count": 55,
+                            "municipals": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "HAUGESUND",
+                                        "doc_count": 10
+                                    },
+                                    {
+                                        "key": "SANDNES",
+                                        "doc_count": 8
+                                    },
+                                    {
+                                        "key": "SOLA",
+                                        "doc_count": 2
+                                    },
+                                    {
+                                        "key": "STAVANGER",
+                                        "doc_count": 29
+                                    },
+                                    {
+                                        "key": "TYSVÆR",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "VINDAFJORD",
+                                        "doc_count": 4
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 54
+                            }
+                        },
+                        {
+                            "key": "TROMS OG FINNMARK",
+                            "doc_count": 20,
+                            "municipals": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "BALSFJORD",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "HAMMERFEST",
+                                        "doc_count": 2
+                                    },
+                                    {
+                                        "key": "HARSTAD",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "HASVIK",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "SØRREISA",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "TROMSØ",
+                                        "doc_count": 12
+                                    },
+                                    {
+                                        "key": "VADSØ",
+                                        "doc_count": 1
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 20
+                            }
+                        },
+                        {
+                            "key": "TRØNDELAG",
+                            "doc_count": 75,
+                            "municipals": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "LEVANGER",
+                                        "doc_count": 3
+                                    },
+                                    {
+                                        "key": "NAMSOS",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "OPPDAL",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "STEINKJER",
+                                        "doc_count": 4
+                                    },
+                                    {
+                                        "key": "STJØRDAL",
+                                        "doc_count": 2
+                                    },
+                                    {
+                                        "key": "TRONDHEIM",
+                                        "doc_count": 62
+                                    },
+                                    {
+                                        "key": "ØRLAND",
+                                        "doc_count": 1
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 73
+                            }
+                        },
+                        {
+                            "key": "VESTFOLD",
+                            "doc_count": 1,
+                            "municipals": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "TØNSBERG",
+                                        "doc_count": 1
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 1
+                            }
+                        },
+                        {
+                            "key": "VESTFOLD OG TELEMARK",
+                            "doc_count": 25,
+                            "municipals": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "FÆRDER",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "HORTEN",
+                                        "doc_count": 4
+                                    },
+                                    {
+                                        "key": "LARVIK",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "PORSGRUNN",
+                                        "doc_count": 4
+                                    },
+                                    {
+                                        "key": "SANDEFJORD",
+                                        "doc_count": 6
+                                    },
+                                    {
+                                        "key": "SKIEN",
+                                        "doc_count": 2
+                                    },
+                                    {
+                                        "key": "TØNSBERG",
+                                        "doc_count": 6
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 25
+                            }
+                        },
+                        {
+                            "key": "VESTLAND",
+                            "doc_count": 86,
+                            "municipals": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "ASKØY",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "AURLAND",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "BERGEN",
+                                        "doc_count": 73
+                                    },
+                                    {
+                                        "key": "BØMLO",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "KINN",
+                                        "doc_count": 3
+                                    },
+                                    {
+                                        "key": "SUNNFJORD",
+                                        "doc_count": 6
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 86
+                            }
+                        },
+                        {
+                            "key": "VIKEN",
+                            "doc_count": 120,
+                            "municipals": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "ASKER",
+                                        "doc_count": 12
+                                    },
+                                    {
+                                        "key": "BÆRUM",
+                                        "doc_count": 49
+                                    },
+                                    {
+                                        "key": "DRAMMEN",
+                                        "doc_count": 9
+                                    },
+                                    {
+                                        "key": "FREDRIKSTAD",
+                                        "doc_count": 4
+                                    },
+                                    {
+                                        "key": "GOL",
+                                        "doc_count": 2
+                                    },
+                                    {
+                                        "key": "KONGSBERG",
+                                        "doc_count": 21
+                                    },
+                                    {
+                                        "key": "LILLESTRØM",
+                                        "doc_count": 3
+                                    },
+                                    {
+                                        "key": "LØRENSKOG",
+                                        "doc_count": 2
+                                    },
+                                    {
+                                        "key": "MOSS",
+                                        "doc_count": 3
+                                    },
+                                    {
+                                        "key": "NORDRE FOLLO",
+                                        "doc_count": 5
+                                    },
+                                    {
+                                        "key": "RINGERIKE",
+                                        "doc_count": 2
+                                    },
+                                    {
+                                        "key": "SARPSBORG",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "ULLENSAKER",
+                                        "doc_count": 2
+                                    },
+                                    {
+                                        "key": "VESTBY",
+                                        "doc_count": 2
+                                    },
+                                    {
+                                        "key": "ÅS",
+                                        "doc_count": 2
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 116
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "published": {
+            "doc_count": 480,
+            "range": {
+                "buckets": [
+                    {
+                        "key": "now/d",
+                        "from": 1600034400000,
+                        "from_as_string": "2020-09-14T00:00:00.000+02:00",
+                        "doc_count": 30
+                    }
+                ]
+            }
+        },
+        "occupations": {
+            "doc_count": 5265,
+            "nestedOccupations": {
+                "doc_count": 6197,
+                "occupationFirstLevels": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                        {
+                            "key": "Helse og sosial",
+                            "doc_count": 1185,
+                            "occupationSecondLevels": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Sykepleier",
+                                        "doc_count": 425
+                                    },
+                                    {
+                                        "key": "Helse",
+                                        "doc_count": 383
+                                    },
+                                    {
+                                        "key": "Sosial",
+                                        "doc_count": 128
+                                    },
+                                    {
+                                        "key": "Lege",
+                                        "doc_count": 88
+                                    },
+                                    {
+                                        "key": "Psykologer og terapeuter",
+                                        "doc_count": 85
+                                    },
+                                    {
+                                        "key": "Leder innenfor helsetjenester",
+                                        "doc_count": 33
+                                    },
+                                    {
+                                        "key": "Tannhelse/-pleie",
+                                        "doc_count": 18
+                                    },
+                                    {
+                                        "key": "Bioingeniør",
+                                        "doc_count": 16
+                                    },
+                                    {
+                                        "key": "Farmasøytisk og apotekerarbeid",
+                                        "doc_count": 6
+                                    },
+                                    {
+                                        "key": "Optiker",
+                                        "doc_count": 3
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 1016
+                            }
+                        },
+                        {
+                            "key": "Salg og service",
+                            "doc_count": 1007,
+                            "occupationSecondLevels": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Salg, butikk- og varehandel",
+                                        "doc_count": 703
+                                    },
+                                    {
+                                        "key": "Personlig tjenesteyting",
+                                        "doc_count": 91
+                                    },
+                                    {
+                                        "key": "Markedsføring og reklame",
+                                        "doc_count": 84
+                                    },
+                                    {
+                                        "key": "Renholdere og renovasjon",
+                                        "doc_count": 58
+                                    },
+                                    {
+                                        "key": "Frisør og velvære",
+                                        "doc_count": 38
+                                    },
+                                    {
+                                        "key": "Eiendomsmegler",
+                                        "doc_count": 29
+                                    },
+                                    {
+                                        "key": "Tolk og oversettere",
+                                        "doc_count": 4
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 951
+                            }
+                        },
+                        {
+                            "key": "Kontor og økonomi",
+                            "doc_count": 961,
+                            "occupationSecondLevels": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Kontor, forvaltning og saksbehandling",
+                                        "doc_count": 255
+                                    },
+                                    {
+                                        "key": "Økonomi, statistikk og regnskap",
+                                        "doc_count": 247
+                                    },
+                                    {
+                                        "key": "Bank finans forsikring",
+                                        "doc_count": 160
+                                    },
+                                    {
+                                        "key": "Ledelse, administrasjon og rådgivning",
+                                        "doc_count": 134
+                                    },
+                                    {
+                                        "key": "Juridisk arbeid",
+                                        "doc_count": 71
+                                    },
+                                    {
+                                        "key": "Personal, arbeidsmiljø og rekruttering",
+                                        "doc_count": 65
+                                    },
+                                    {
+                                        "key": "Organisasjonsarbeid og politikk",
+                                        "doc_count": 16
+                                    },
+                                    {
+                                        "key": "Megling",
+                                        "doc_count": 13
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 869
+                            }
+                        },
+                        {
+                            "key": "Utdanning",
+                            "doc_count": 793,
+                            "occupationSecondLevels": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Barnehage",
+                                        "doc_count": 246
+                                    },
+                                    {
+                                        "key": "Forskningsarbeid",
+                                        "doc_count": 172
+                                    },
+                                    {
+                                        "key": "Grunnskole",
+                                        "doc_count": 96
+                                    },
+                                    {
+                                        "key": "Universitet og høyskole",
+                                        "doc_count": 86
+                                    },
+                                    {
+                                        "key": "SFO, barne- og fritidsleder",
+                                        "doc_count": 70
+                                    },
+                                    {
+                                        "key": "Instruktører  og pedagoger",
+                                        "doc_count": 63
+                                    },
+                                    {
+                                        "key": "Videregående skole",
+                                        "doc_count": 42
+                                    },
+                                    {
+                                        "key": "Ledere av undervisning og utdanning",
+                                        "doc_count": 18
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 720
+                            }
+                        },
+                        {
+                            "key": "Håndverkere",
+                            "doc_count": 611,
+                            "occupationSecondLevels": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Tømrer og snekker",
+                                        "doc_count": 114
+                                    },
+                                    {
+                                        "key": "Mekaniker",
+                                        "doc_count": 112
+                                    },
+                                    {
+                                        "key": "Elektriker/elektro",
+                                        "doc_count": 101
+                                    },
+                                    {
+                                        "key": "Øvrige håndverksyrker",
+                                        "doc_count": 76
+                                    },
+                                    {
+                                        "key": "Rørlegger",
+                                        "doc_count": 65
+                                    },
+                                    {
+                                        "key": "Maler",
+                                        "doc_count": 33
+                                    },
+                                    {
+                                        "key": "Betongfagarbeider",
+                                        "doc_count": 32
+                                    },
+                                    {
+                                        "key": "Murer",
+                                        "doc_count": 31
+                                    },
+                                    {
+                                        "key": "Vaktmester",
+                                        "doc_count": 29
+                                    },
+                                    {
+                                        "key": "Platearbeider og sveiser",
+                                        "doc_count": 15
+                                    },
+                                    {
+                                        "key": "Skredder",
+                                        "doc_count": 2
+                                    },
+                                    {
+                                        "key": "Feier",
+                                        "doc_count": 1
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 579
+                            }
+                        },
+                        {
+                            "key": "IT",
+                            "doc_count": 565,
+                            "occupationSecondLevels": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Utvikling",
+                                        "doc_count": 391
+                                    },
+                                    {
+                                        "key": "Drift, vedlikehold",
+                                        "doc_count": 133
+                                    },
+                                    {
+                                        "key": "Interaksjonsdesign",
+                                        "doc_count": 21
+                                    },
+                                    {
+                                        "key": "Ledere av IKT-enheter",
+                                        "doc_count": 20
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 480
+                            }
+                        },
+                        {
+                            "key": "Industri og produksjon",
+                            "doc_count": 273,
+                            "occupationSecondLevels": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Elektro/elektronikk",
+                                        "doc_count": 116
+                                    },
+                                    {
+                                        "key": "Maskinteknikk og mekanikk",
+                                        "doc_count": 74
+                                    },
+                                    {
+                                        "key": "Fysikk, kjemi og metallurgi",
+                                        "doc_count": 29
+                                    },
+                                    {
+                                        "key": "Matproduksjon og næringsmiddelarbeid",
+                                        "doc_count": 16
+                                    },
+                                    {
+                                        "key": "Arbeidsleder, industri",
+                                        "doc_count": 15
+                                    },
+                                    {
+                                        "key": "Olje, gass og bergverk",
+                                        "doc_count": 12
+                                    },
+                                    {
+                                        "key": "Trevarearbeid og –foredling",
+                                        "doc_count": 7
+                                    },
+                                    {
+                                        "key": "Tekstil og presisjonsarbeid",
+                                        "doc_count": 3
+                                    },
+                                    {
+                                        "key": "Andre hjelpearbeidere",
+                                        "doc_count": 1
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 243
+                            }
+                        },
+                        {
+                            "key": "Transport og lager",
+                            "doc_count": 221,
+                            "occupationSecondLevels": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Logistikk, lagerarbeid og innkjøp",
+                                        "doc_count": 118
+                                    },
+                                    {
+                                        "key": "Tog-, sporvogn- og vegtrafikk",
+                                        "doc_count": 71
+                                    },
+                                    {
+                                        "key": "Truckfører",
+                                        "doc_count": 24
+                                    },
+                                    {
+                                        "key": "Speditør og befrakter",
+                                        "doc_count": 8
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 203
+                            }
+                        },
+                        {
+                            "key": "Bygg og anlegg",
+                            "doc_count": 195,
+                            "occupationSecondLevels": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Ingeniør bygg",
+                                        "doc_count": 97
+                                    },
+                                    {
+                                        "key": "Maskin- og kranfører",
+                                        "doc_count": 32
+                                    },
+                                    {
+                                        "key": "Arealplanlegging og arkitektur",
+                                        "doc_count": 25
+                                    },
+                                    {
+                                        "key": "Arbeidsleder, bygg og anlegg",
+                                        "doc_count": 20
+                                    },
+                                    {
+                                        "key": "Hjelpearbeider Bygg og anlegg",
+                                        "doc_count": 17
+                                    },
+                                    {
+                                        "key": "Ingeniør miljøteknikk",
+                                        "doc_count": 3
+                                    },
+                                    {
+                                        "key": "Skytebaser og sprengningsarbeidere",
+                                        "doc_count": 1
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 182
+                            }
+                        },
+                        {
+                            "key": "Reiseliv og mat",
+                            "doc_count": 157,
+                            "occupationSecondLevels": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Kokk",
+                                        "doc_count": 67
+                                    },
+                                    {
+                                        "key": "Restaurant",
+                                        "doc_count": 53
+                                    },
+                                    {
+                                        "key": "Reiseliv, hotell og overnatting",
+                                        "doc_count": 28
+                                    },
+                                    {
+                                        "key": "Baker og konditor",
+                                        "doc_count": 9
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 146
+                            }
+                        },
+                        {
+                            "key": "Kultur og kreative yrker",
+                            "doc_count": 88,
+                            "occupationSecondLevels": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Journalistikk og litteratur",
+                                        "doc_count": 39
+                                    },
+                                    {
+                                        "key": "Sport og idrett",
+                                        "doc_count": 14
+                                    },
+                                    {
+                                        "key": "Museum, bibliotek",
+                                        "doc_count": 11
+                                    },
+                                    {
+                                        "key": "Design, grafisk arbeid og illustrasjon",
+                                        "doc_count": 9
+                                    },
+                                    {
+                                        "key": "Religiøst arbeid",
+                                        "doc_count": 7
+                                    },
+                                    {
+                                        "key": "Fritid",
+                                        "doc_count": 3
+                                    },
+                                    {
+                                        "key": "Underholdning, scene og teater",
+                                        "doc_count": 3
+                                    },
+                                    {
+                                        "key": "Andre yrker innen estetiske fag",
+                                        "doc_count": 1
+                                    },
+                                    {
+                                        "key": "Musikk/lyd, foto og video",
+                                        "doc_count": 1
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 87
+                            }
+                        },
+                        {
+                            "key": "Natur og miljø",
+                            "doc_count": 77,
+                            "occupationSecondLevels": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Biologer, zoologer, botanikere",
+                                        "doc_count": 23
+                                    },
+                                    {
+                                        "key": "Skogbruk, gartnerarbeid og hagebruk",
+                                        "doc_count": 22
+                                    },
+                                    {
+                                        "key": "Veterinærer og dyrepleiere",
+                                        "doc_count": 11
+                                    },
+                                    {
+                                        "key": "Naturvitenskapelige yrker",
+                                        "doc_count": 8
+                                    },
+                                    {
+                                        "key": "Jordbruk og dyrehold",
+                                        "doc_count": 5
+                                    },
+                                    {
+                                        "key": "Miljøvern",
+                                        "doc_count": 4
+                                    },
+                                    {
+                                        "key": "Fiske, fangst og oppdrett",
+                                        "doc_count": 2
+                                    },
+                                    {
+                                        "key": "Matproduksjon og næringsmiddelarbeid",
+                                        "doc_count": 2
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 73
+                            }
+                        },
+                        {
+                            "key": "Sikkerhet og beredskap",
+                            "doc_count": 48,
+                            "occupationSecondLevels": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Vakt-, sikrings- og kontrollarbeid",
+                                        "doc_count": 23
+                                    },
+                                    {
+                                        "key": "Politi, fengsel og toll",
+                                        "doc_count": 19
+                                    },
+                                    {
+                                        "key": "Brann-, utryknings- og redningspersonell",
+                                        "doc_count": 6
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 48
+                            }
+                        },
+                        {
+                            "key": "Uoppgitt/ ikke identifiserbare",
+                            "doc_count": 16,
+                            "occupationSecondLevels": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Ikke identifiserbare",
+                                        "doc_count": 16
+                                    }
+                                ]
+                            },
+                            "root_doc_count": {
+                                "doc_count": 16
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "sector": {
+            "doc_count": 480,
+            "values": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                    {
+                        "key": "Privat",
+                        "doc_count": 358
+                    },
+                    {
+                        "key": "Ikke oppgitt",
+                        "doc_count": 63
+                    },
+                    {
+                        "key": "Offentlig",
+                        "doc_count": 58
+                    }
+                ]
+            }
+        }
+    }
+}
