@@ -1,85 +1,141 @@
-const puppeteer = require("puppeteer");
-const Categories = require('./FinnCategories.json');
+const puppeteer = require('puppeteer-extra');
+const JobsModel = require("./test.model");
+const mongoose = require("mongoose");
+var uri = "mongodb://localhost:27017/jobhunter";
+mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
+const connection = mongoose.connection;
+connection.once("open", function () {
+    console.log("MongoDB database connection established successfully");
+});
 (async () => {
-    let i2 = 0;
 
+    const AdblockerPlugin = require('puppeteer-extra-plugin-adblocker')
+    puppeteer.use(AdblockerPlugin())
     const browser = await puppeteer.launch({
-        headless: false
+        headless: false,
+        executablePath: 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe',
+        args: ["--disable-setuid-sandbox"],
+        'ignoreHTTPSErrors': true
     });
     const page = await browser.newPage();
-
-    const linkIds = Categories.map(category => category.linkId);
     await page.goto("https://www.finn.no/job/fulltime/search.html");
     await page.waitFor(1000);
     const click1 = await page.waitForSelector('#__next > main > div.grid > section > ul:nth-child(12) > li:nth-child(16) > button');
     await click1.click();
     await page.waitFor(1000);
     let checkboxText = await page.$$eval('#__next > main > div.grid > section > ul:nth-child(12) > li > div > label', links => {
-        // Make sure the book to be scraped is in stock
-        // Extract the links from the data
+
+        // Checkbox labeltext
         links = links.map(el => el.textContent)
         return links;
     })
     let checkboxID = await page.$$eval('#__next > main > div.grid > section > ul:nth-child(12) > li > div > input[type=checkbox]', links => {
-        // Make sure the book to be scraped is in stock
-        // Extract the links from the data
+        // Checkbox html id
+
         links = links.map(el => el.getAttribute("id"))
         return links;
     })
-    // var categories = await page.$$eval('#__next > main > div.grid > section > ul:nth-child(12)', list => {
-    //     links = list.map(data => data.id)
-    //     // links1 = list.map(el => el.querySelector('a').href)
-    //     return links;
-    // });
-    // const attr = await page.$$eval("#__next > main > div.grid > section > ul:nth-child(12) > li", el => el.map(x => x.getAttribute("id")));
 
-    // let categories = await page.$eval('#__next > main > div.grid > section > ul:nth-child(12) > li:nth-child(1)', text => text.outerHTML);
     let nextPageExists = false
-    console.log(checkboxID)
-    for (let i = 0; i < checkboxID.length; i++) {
+    console.log(checkboxID.length)
+    for (let i = 1; i < checkboxID.length; i++) {
         // console.log(nextPageExists)
         console.log('#' + checkboxID[i])
-
+        let x = 1;
         // nextPageExists = true
 
         const username = await page.waitForSelector('#' + checkboxID[i]);
         await username.click();
         await page.waitFor(1000);
 
-        while ((await page.$$('#__next > main > div.grid > div.grid__unit.u-r-size2of3 > nav > a')).length < 1) {
-            console.log('test')
-            break
-        }
-        // if ((await page.$$('#__next > main > div.grid > div.grid__unit.u-r-size2of3 > nav > a')).length < 1) {
-        //     nextPageExists = false
-        //     // console.log(nextPageExists)
+        if ((await page.$$('#__next > main > div.grid > div.grid__unit.u-r-size2of3 > nav > a')).length < 1) {
+            var urls = await page.$$eval('article', list => {
+                links = list.map(el => el.querySelector('a').href)
+                return links;
+            });
+            for (let i = 0; i < urls.length; i++) {
+                let newPage = await browser.newPage();
+                await newPage.goto(urls[i]);
+                console.log(newPage.url())
+                let idfromurl = newPage.url()
+                let finnId = idfromurl.match(/[0-9]+/)
+                let list1;
+                await newPage.close();
 
-        //     await username.click();
-        //     await page.waitFor(1000);
-        //     break
-        // }
+            }
+        }
+        if ((await page.$$('#__next > main > div.grid > div.grid__unit.u-r-size2of3 > nav > a')).length === 1) {
+            do {
+                x++;
+                if (x = 1) {
+                    var urls = await page.$$eval('article', list => {
+                        links = list.map(el => el.querySelector('a').href)
+                        return links;
+                    });
+                    for (let i = 0; i < urls.length; i++) {
+                        let newPage = await browser.newPage();
+                        await newPage.goto(urls[i]);
+                        console.log(newPage.url())
+                        let idfromurl = newPage.url()
+                        let finnId = idfromurl.match(/[0-9]+/)
+                        let list1;
+                        await newPage.close();
+
+                    }
+                    const username2 = await page.waitForSelector('#__next > main > div.grid > div.grid__unit.u-r-size2of3 > nav > a');
+                    await username2.click();
+
+                    await page.waitFor(1000);
+                    while (nextPageExists = true) {
+                        var urls = await page.$$eval('article', list => {
+                            links = list.map(el => el.querySelector('a').href)
+                            return links;
+                        });
+                        for (let i = 0; i < urls.length; i++) {
+                            let newPage = await browser.newPage();
+                            await newPage.goto(urls[i]);
+                            console.log(newPage.url())
+                            let idfromurl = newPage.url()
+                            let finnId = idfromurl.match(/[0-9]+/)
+                            let list1;
+                            await newPage.close();
+
+                        }
+
+                        if ((await page.$$('a[class="button button--pill button--has-icon button--icon-right"]')).length === 0) {
+                            nextPageExists = false
+                            break
+                        }
+                        var urls = await page.$$eval('article', list => {
+                            links = list.map(el => el.querySelector('a').href)
+                            return links;
+                        });
+                        for (let i = 0; i < urls.length; i++) {
+                            let newPage = await browser.newPage();
+                            await newPage.goto(urls[i]);
+                            console.log(newPage.url())
+                            let idfromurl = newPage.url()
+                            let finnId = idfromurl.match(/[0-9]+/)
+                            let list1;
+                        }
+                        const username2 = await page.waitForSelector('#__next > main > div.grid > div.grid__unit.u-r-size2of3 > nav > a.button.button--pill.button--has-icon.button--icon-right');
+                        await username2.click();
+                        await page.waitFor(1000);
+
+                    }
+                    break
+                }
+                const username2 = await page.waitForSelector('#__next > main > div.grid > div.grid__unit.u-r-size2of3 > nav > a.button.button--pill.button--has-icon.button--icon-right');
+                await username2.click();
+                await page.waitFor(1000);
+
+            } while (nextPageExists = true)
+
+            console.log('slut')
+        }
+
         await username.click();
         await page.waitFor(1000);
-
-        // // console.log((await page.$$('#__next > main > div.grid > div.grid__unit.u-r-size2of3 > nav > a')).length)
-        // // if ((await page.$$('#__next > main > div.grid > div.grid__unit.u-r-size2of3 > nav > a')).length === 0) {
-        // //     nextPageExists = false
-        // // }
-        // let sida = 0;
-        // while (nextPageExists = true)
-
-        // sida++
-        // console.log(sida)
-        // if (sida === 1) {
-        //     const username2 = await page.waitForSelector('#__next > main > div.grid > div.grid__unit.u-r-size2of3 > nav > a');
-        //     await username2.click();
-        //     await page.waitFor(1000);
-        // }
-        // console.log('Finns')
-
-        // const username2 = await page.waitForSelector('#__next > main > div.grid > div.grid__unit.u-r-size2of3 > nav > a.button.button--pill.button--has-icon.button--icon-right');
-        // await username2.click();
-        // await page.waitFor(1000);
 
     }
     var urls = await page.$$eval('article', list => {
@@ -87,19 +143,4 @@ const Categories = require('./FinnCategories.json');
         return links;
     });
 
-
-    /*     for (let i = 0; i < Categories.length; i++) {
-            do {
-                i2++;
-    
-                await page.goto(`https://www.finn.no/job/fulltime/search.html?${linkIds[i]}&page=${i2}`)
-                console.log(page.url())
-                await page.waitFor(3000);
-                if ((await page.$$('a[class="button button--pill button--has-icon button--icon-right"]')).length === 0) {
-                    nextPageExists = false
-                }
-            } while (nextPageExists === true)
-        } */
 })();
-// console.log(linkIds[0])
-// console.log(JSON.stringify(Categories))
